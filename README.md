@@ -34,7 +34,7 @@ Prepare videos
 Put all your .mp4 video files in the VIDEO_DIR.
 
 1. Run the main script
- python detect_and_track.py
+python detect_and_track.py
 
 3. Outputs
 - Annotated videos in /output
