@@ -33,10 +33,9 @@ Ensure you have Python ≥ 3.8 and a compatible CUDA setup if using GPU
 Prepare videos
 Put all your .mp4 video files in the VIDEO_DIR.
 
-1. Run the main script
-python detect_and_track.py
+1. Run the main script:- python detect_and_track.py
 
-3. Outputs
+2. Outputs
 - Annotated videos in /output
 -results.csv file with the following format:
 id, video, frame, bbox_x, bbox_y, bbox_w, bbox_h
