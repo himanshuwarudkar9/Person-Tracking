@@ -24,37 +24,33 @@ This project performs **multi-video person tracking and ReID (Re-identification)
 6. **Logging**: Results are saved as a CSV.
 
 ---
-⚙️ Installation
+## ⚙️ Installation
 
-## pip install -r requirements.txt
-## Ensure you have Python ≥ 3.8 and a compatible CUDA setup if using GPU
+### pip install -r requirements.txt
+### Ensure you have Python ≥ 3.8 and a compatible CUDA setup if using GPU
 
-🚀 Running the Code
-Prepare videos
-Put all your .mp4 video files in the VIDEO_DIR.
+## 🚀 Running the Code
+Prepare videos, Put all your .mp4 video files in the VIDEO_DIR.
 
 1. Run the main script:- python detect_and_track.py
 
-2. Outputs
-- Annotated videos in /output
--results.csv file with the following format:
-id, video, frame, bbox_x, bbox_y, bbox_w, bbox_h
+2. Outputs:- Annotated videos in /output -results.csv file with the following format: (id, video, frame, bbox_x, bbox_y, bbox_w, bbox_h)
 
-🧪 Models Tested
+##🧪 Models Tested
 We tested multiple models for performance vs accuracy:
 
-🔍 ReID Models (OSNet variants)
+##🔍 ReID Models (OSNet variants)
 osnet_x1_0, osnet_x0_75, osnet_ibn_x1_0, osnet_ain_x1_0, etc.
 
-🧍 YOLOv8 Variants
+##🧍 YOLOv8 Variants
 yolov8n, yolov8s, yolov8m
 
-✅ Final choice:
+##✅ Final choice:
 YOLOv8m + OSNet_AIN_x1_0
 
 Balanced speed and accuracy; achieved 80%+ global identity consistency.
 
-📈 Evaluation Criteria
+## 📈 Evaluation Criteria
 Criteria	Achieved
 ✔ Person detection accuracy	Used YOLOv8m with class=person filtering
 ✔ Cross-video identity consistency	Global ReID via OSNet with cosine similarity
