@@ -26,8 +26,8 @@ This project performs **multi-video person tracking and ReID (Re-identification)
 ---
 ⚙️ Installation
 
-pip install -r requirements.txt
-Ensure you have Python ≥ 3.8 and a compatible CUDA setup if using GPU
+## pip install -r requirements.txt
+## Ensure you have Python ≥ 3.8 and a compatible CUDA setup if using GPU
 
 🚀 Running the Code
 Prepare videos
