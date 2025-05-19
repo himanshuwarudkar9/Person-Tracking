@@ -46,7 +46,7 @@ osnet_x1_0, osnet_x0_75, osnet_ibn_x1_0, osnet_ain_x1_0, etc.
 yolov8n, yolov8s, yolov8m
 
 ##✅ Final choice:
-YOLOv8m + OSNet_AIN_x1_0
+YOLOv8m + osnet_x1_0 + insightface
 
 Balanced speed and accuracy; achieved 80%+ global identity consistency.
 
